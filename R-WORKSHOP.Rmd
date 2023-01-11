@@ -1,0 +1,76 @@
+---
+title: "Data Science Project"
+output: html_document
+date: "2023-01-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Exploratory data analysis is a data analysis approach that involves building an intuitive understanding of the dataset at hand. That is what you're being asked to do in this project! 
+
+Requirements
+
+Please pick a dataset you will use for your analysis. Please choose from the following (I know these work and are good):
+
+
+
+
+Explore your data variables and decide what questions you want to ask and answer.
+
+
+ 
+1. Upload your data set to Kaggle, Radiant or R studio OR VIEW data sets.
+
+2. Ask 2 questions that can be answered using a correlation analyses.
+
+3. Ask to questions that can be answered using a T-Test. Find the p value for your questions.
+
+4. Create 1 visuals per hypothesis or question. 
+
+5. Get a basic statistics summary to explore your data. There is not only one right answer for how to explore your data. 
+
+
+Below we will first load some libraries and load a bunch of data sets to choose from.
+
+```{r cars}
+library(yarrr)
+library("datasets")
+
+library(tidyverse) # metapackage of all tidyverse packages
+install.packages('yarrr')
+
+# Input data files are available in the read-only "../input/" directory
+# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
+​
+list.files(path = "../input")
+library(yarrr)
+```
+
+## Library datasets
+
+
+
+```{r pressure, echo=FALSE}
+library(help = "datasets")
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r pressure, echo=FALSE}
+?sleep
+```
+
+
+Lets look at the column names
+```{r}
+head(sleep)
+```
+
+
+```{r}
+
+```
+
