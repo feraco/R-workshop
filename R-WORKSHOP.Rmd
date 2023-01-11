@@ -25,13 +25,24 @@ Explore your data variables and decide what questions you want to ask and answer
  
 1. Upload your data set to Kaggle, Radiant or R studio OR VIEW data sets.
 
-2. Ask 2 questions that can be answered using a correlation analyses.
+2. Ask 2 questions that can be answered using a correlation analyses. Make a copy of this document and fill out information for each correlation.
 
-3. Ask to questions that can be answered using a T-Test. Find the p value for your questions.
+
+Correlation analysis Template
+
+https://docs.google.com/document/d/1h2zhx6STiFp7SpXzy_Q0cHm6rQIntbxO2vEel9_juaY/edit?usp=sharing
+
+
+3. Ask questions that can be answered using a T-Test or ANOVA. Find the p value for your questions.
+Complete 3 ANOVA Analyses Choose your own data sets.
+
+Explanation Template -https://docs.google.com/document/d/1WVw8JKT13BRnZZlCbNMTfIG1GTDQM4puHbMB9QMqQs4/edit?usp=sharing
 
 4. Create 1 visuals per hypothesis or question. 
 
 5. Get a basic statistics summary to explore your data. There is not only one right answer for how to explore your data. 
+
+
 
 
 Below we will first load some libraries and load a bunch of data sets to choose from.
